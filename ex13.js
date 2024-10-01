@@ -2,4 +2,12 @@
 // and returns the sum of all numbers from 1 to `n`.
 // Example: sumRange(5) should return 15 (1 + 2 + 3 + 4 + 5).
 
+function sumRange(topNum){
+    let counter = 0
+    for (let i = 0; i <= topNum; i++){
+        counter += i 
+    }
+    return counter
+}
+
 console.log(sumRange(5)); // Expected output: 15
