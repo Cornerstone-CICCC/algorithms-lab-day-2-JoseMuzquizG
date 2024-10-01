@@ -13,3 +13,4 @@ function countConsonants(message){
 }
 
 console.log(countConsonants("hello world")); // Expected output: 7
+// done

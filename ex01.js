@@ -4,12 +4,11 @@
 
 function capitalizeWords(sentence){
     let wordArray = sentence.split(" ")
-    let firstLetter = ""
-    for (let i = 0; i < wordArray.length; i++){
-        firstLetter = wordArray[i][0]
-    }
-    // let firstLetter = wordArray[0][0]
-    return firstLetter
+    let firstWord = wordArray [0]
+    // for (let i = 0; i < wordArray.length; i++){
+    //     firstWord = 
+    // }
+    return firstWord
 }
 
 console.log(capitalizeWords("hello world")); // Expected output: "Hello World"

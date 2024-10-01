@@ -8,3 +8,4 @@ function calculateBMI(weigth, heigth){
     return bmi.toFixed(2)
 }
 console.log(calculateBMI(70, 1.75)); // Expected output: 22.86
+//done

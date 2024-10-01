@@ -11,3 +11,4 @@ function sumRange(topNum){
 }
 
 console.log(sumRange(5)); // Expected output: 15
+// done
