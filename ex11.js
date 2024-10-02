@@ -14,3 +14,4 @@ function countWordOccurrences(sentence, find) {
 }
 
 console.log(countWordOccurrences("hello world hello", "hello")); // Expected output: 2
+//done
