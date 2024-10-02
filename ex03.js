@@ -3,11 +3,14 @@
 // Example: findMissingNumber([1, 2, 4, 5]) should return 3.
 
 function findMissingNumber(numberArray){
-    let missingNum = 0
-    for (let i = 0; i < numberArray.length; i++){
-        console.log(i)
-    }
-    return missingNum
+    let missingNumbers = []
+    numberArray.reduce((count, current) => {
+        if (current !== count + 1) {
+            missingNumbers.push((current))
+            return missingNumbers
+        }
+    }, 0)
+    return missingNumbers
 }
 
 console.log(findMissingNumber([1, 2, 4, 5])); // Expected output: 3
