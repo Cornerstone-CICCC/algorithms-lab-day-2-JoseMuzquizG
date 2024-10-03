@@ -14,16 +14,6 @@ function convertToCamelCase (sentence) {
     }
  
     return wordArray[0] + completeSentence.join("")
-    
-    
-    // let completeSentence = []
-    // for (let i = 0; i < wordArray.length; i++){
-    //     let initialLetter = wordArray[i][0].toUpperCase()
-    //     let otherLetters = wordArray[i].slice(1)
-    //     let word = initialLetter + otherLetters
-    //     completeSentence.push(word)
-    // }
-    // return (completeSentence[0] + completeSentence.join(" "))
 }
 
 console.log(convertToCamelCase("hello_world")); // Expected output: "helloWorld"
