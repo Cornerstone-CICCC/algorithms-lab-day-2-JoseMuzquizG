@@ -6,11 +6,13 @@ function findMissingNumber(numberArray){
     let missingNumbers = []
     numberArray.reduce((count, current) => {
         if (current !== count + 1) {
-            missingNumbers.push((current))
-            return missingNumbers
+          missingNumbers.push((current))
+          return missingNumbers
         }
     }, 0)
     return missingNumbers
 }
 
 console.log(findMissingNumber([1, 2, 4, 5])); // Expected output: 3
+
+

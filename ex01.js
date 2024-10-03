@@ -15,4 +15,5 @@ function capitalizeWords(sentence){
 
 }
 
-console.log(capitalizeWords("hello world")); // Expected output: "Hello World"
+console.log(capitalizeWords("hello world i am john")); // Expected output: "Hello World"
+//done

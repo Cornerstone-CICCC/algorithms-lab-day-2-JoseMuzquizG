@@ -8,8 +8,18 @@ function mostFrequentChar(text) {
         letter[current] = (letter[current] || 0) + 1
         return letter
     }, {})
-    return letterCounter
+    let amount = 0
+    let freqLetter = ""
+
+    for (character in letterCounter) {
+        if (letterCounter[character] >= amount) {
+            amount = letterCounter[character]
+            freqLetter = character
+        }
+    }
+    return freqLetter
 
 }
 
-console.log(mostFrequentChar("javascript")); // Expected output: "a"
+
+console.log(mostFrequentChar("peep")); // Expected output: "a"
