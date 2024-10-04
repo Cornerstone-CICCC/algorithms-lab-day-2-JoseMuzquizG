@@ -18,7 +18,6 @@ function mostFrequentChar(text) {
         }
     }
     return freqLetter
-
 }
 
 

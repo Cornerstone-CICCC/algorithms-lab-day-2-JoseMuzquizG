@@ -14,5 +14,3 @@ function findMissingNumber(numberArray){
 }
 
 console.log(findMissingNumber([1, 2, 4, 5])); // Expected output: 3
-
-
